@@ -168,7 +168,7 @@ function App() {
                     aria-labelledby="dropdownMenuButton"
                   >
                     {cart.length === 0 ? (
-                      <li>
+                      <li className="dropdown-item">
                         {/* <a className="dropdown-item"> */}
                         Your Cart is Empty <i className="bi-cart-fill me-1"></i>
                         {/* </a> */}
