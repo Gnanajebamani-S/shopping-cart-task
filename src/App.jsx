@@ -169,10 +169,9 @@ function App() {
                   >
                     {cart.length === 0 ? (
                       <li>
-                        <a className="dropdown-item" href="#">
-                          Your Cart is Empty{" "}
-                          <i className="bi-cart-fill me-1"></i>
-                        </a>
+                        {/* <a className="dropdown-item"> */}
+                        Your Cart is Empty <i className="bi-cart-fill me-1"></i>
+                        {/* </a> */}
                       </li>
                     ) : (
                       <>
