@@ -5,7 +5,7 @@ Cart.propTypes = {
 };
 function Cart({ item, removeFromCart }) {
   return (
-    <li className="dropdown-item d-flex justify-content-between">
+    <li>
       {/* <a className="dropdown-item d-flex justify-content-between"> */}
       {item.name} - RS.{item.rate}
       &#x2003;&#x2003;&#x2003;
