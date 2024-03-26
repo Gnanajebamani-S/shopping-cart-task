@@ -150,10 +150,10 @@ function App() {
             </ul>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
               <div className="container px-4 px-lg-5">
-                <form className="d-flex">
+                <div className="d-flex">
                   <button
                     className="btn btn-outline-dark"
-                    type="submit"
+                    // type="submit"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
@@ -169,9 +169,7 @@ function App() {
                   >
                     {cart.length === 0 ? (
                       <li className="dropdown-item">
-                        {/* <a className="dropdown-item"> */}
                         Your Cart is Empty <i className="bi-cart-fill me-1"></i>
-                        {/* </a> */}
                       </li>
                     ) : (
                       <>
@@ -189,15 +187,13 @@ function App() {
                         <li>
                           <hr className="dropdown-divider" />
                         </li>
-                        <li>
-                          <a className="dropdown-item" href="#">
-                            <b>Total Amount: Rs.{total}</b>
-                          </a>
+                        <li className="dropdown-item">
+                          <b>Total Amount: Rs.{total}</b>
                         </li>
                       </>
                     )}
                   </ol>
-                </form>
+                </div>
               </div>
             </nav>
           </div>

@@ -1,10 +1,10 @@
 // import React from 'react'
-Section.propTypes = {
-  product: {},
-  addToCart: {},
-  removeFromCart: {},
-  cart: {},
-};
+// Section.propTypes = {
+//   product: {},
+//   addToCart: {},
+//   removeFromCart: {},
+//   cart: {},
+// };
 function Section({ product, addToCart, removeFromCart, cart }) {
   return (
     <>
